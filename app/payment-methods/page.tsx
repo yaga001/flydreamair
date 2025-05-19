@@ -13,7 +13,6 @@ import PaymentMethodForm from "@/components/payment-method-form"
 import MainLayout from "@/components/main-layout"
 import type { UserType, PaymentMethodType } from "@/lib/types"
 
-
 export default function PaymentMethodsPage() {
   const router = useRouter()
   const [user, setUser] = useState<UserType | null>(null)
