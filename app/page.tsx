@@ -42,6 +42,7 @@ export default function HomePage() {
         </div>
       </header>
 
+      
       <main className="flex-1">
         <section className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-400 h-[500px]" />
