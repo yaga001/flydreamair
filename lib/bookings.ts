@@ -8,7 +8,7 @@ export async function getUserBookings(userId: string): Promise<BookingType[]> {
   if (typeof window === "undefined") {
     return []
   }
-
+ 
   // Simulate API delay
   await new Promise((resolve) => setTimeout(resolve, 1000))
 
