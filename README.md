@@ -2,8 +2,15 @@
 
 A comprehensive flight booking system with payment method management, persistent storage for bookings, and search history.
 
+
+### Home (Register/Sign In)
+![home](https://github.com/user-attachments/assets/b43f84f6-ff03-456d-929a-6e0b907db7eb)
 ### Dashboard
 ![dashboard](https://github.com/user-attachments/assets/3ee87d47-7097-45ae-802a-ec47921643e7)
+### Seating Choice
+![seat](https://github.com/user-attachments/assets/7b978999-7c05-4956-aba2-24fb0b913146)
+### Confirmed Ticket
+![confirmed-ticket](https://github.com/user-attachments/assets/25e7975e-a587-4ce3-8d9c-c5dfd18f2d80)
 
 
 ## Features
