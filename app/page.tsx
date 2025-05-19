@@ -30,7 +30,7 @@ export default function HomePage() {
               href="/auth/signin"
               className="hidden md:inline-flex px-4 py-2 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors"
             >
-              
+            
               Sign In
             </Link>
             <Link
