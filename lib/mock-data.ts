@@ -1,0 +1,212 @@
+// Mock flight data
+export const mockFlights = [
+  {
+    id: "flight-1",
+    flightNumber: "FDA101",
+    origin: "New York (JFK)",
+    destination: "Los Angeles (LAX)",
+    departureTime: "08:00 AM",
+    arrivalTime: "11:30 AM",
+    duration: "5h 30m",
+    price: 299,
+    airline: "FlyDreamAir",
+  },
+  {
+    id: "flight-2",
+    flightNumber: "FDA205",
+    origin: "New York (JFK)",
+    destination: "Los Angeles (LAX)",
+    departureTime: "12:15 PM",
+    arrivalTime: "03:45 PM",
+    duration: "5h 30m",
+    price: 349,
+    airline: "FlyDreamAir",
+  },
+  {
+    id: "flight-3",
+    flightNumber: "FDA310",
+    origin: "New York (JFK)",
+    destination: "Los Angeles (LAX)",
+    departureTime: "05:30 PM",
+    arrivalTime: "09:00 PM",
+    duration: "5h 30m",
+    price: 279,
+    airline: "FlyDreamAir",
+  },
+  {
+    id: "flight-4",
+    flightNumber: "FDA422",
+    origin: "Los Angeles (LAX)",
+    destination: "New York (JFK)",
+    departureTime: "07:30 AM",
+    arrivalTime: "04:00 PM",
+    duration: "5h 30m",
+    price: 319,
+    airline: "FlyDreamAir",
+  },
+  {
+    id: "flight-5",
+    flightNumber: "FDA533",
+    origin: "Chicago (ORD)",
+    destination: "Miami (MIA)",
+    departureTime: "09:15 AM",
+    arrivalTime: "01:30 PM",
+    duration: "3h 15m",
+    price: 249,
+    airline: "FlyDreamAir",
+  },
+  {
+    id: "flight-6",
+    flightNumber: "FDA644",
+    origin: "San Francisco (SFO)",
+    destination: "Seattle (SEA)",
+    departureTime: "10:45 AM",
+    arrivalTime: "01:15 PM",
+    duration: "2h 30m",
+    price: 199,
+    airline: "FlyDreamAir",
+  },
+]
+
+// Mock seat map data
+export const mockSeatMap = {
+  rows: 10,
+  columns: 6,
+  seats: [
+    // Row 1 (First Class)
+    { id: "1A", status: "available", class: "first" },
+    { id: "1B", status: "occupied", class: "first" },
+    { id: "1C", status: "available", class: "first" },
+    { id: "1D", status: "available", class: "first" },
+    { id: "1E", status: "available", class: "first" },
+    { id: "1F", status: "occupied", class: "first" },
+
+    // Row 2 (First Class)
+    { id: "2A", status: "available", class: "first" },
+    { id: "2B", status: "available", class: "first" },
+    { id: "2C", status: "occupied", class: "first" },
+    { id: "2D", status: "available", class: "first" },
+    { id: "2E", status: "occupied", class: "first" },
+    { id: "2F", status: "available", class: "first" },
+
+    // Row 3-4 (Business Class)
+    { id: "3A", status: "available", class: "business" },
+    { id: "3B", status: "available", class: "business" },
+    { id: "3C", status: "occupied", class: "business" },
+    { id: "3D", status: "available", class: "business" },
+    { id: "3E", status: "available", class: "business" },
+    { id: "3F", status: "occupied", class: "business" },
+
+    { id: "4A", status: "occupied", class: "business" },
+    { id: "4B", status: "available", class: "business" },
+    { id: "4C", status: "available", class: "business" },
+    { id: "4D", status: "occupied", class: "business" },
+    { id: "4E", status: "available", class: "business" },
+    { id: "4F", status: "available", class: "business" },
+
+    // Row 5-6 (Premium Economy)
+    { id: "5A", status: "available", class: "premium" },
+    { id: "5B", status: "occupied", class: "premium" },
+    { id: "5C", status: "available", class: "premium" },
+    { id: "5D", status: "available", class: "premium" },
+    { id: "5E", status: "occupied", class: "premium" },
+    { id: "5F", status: "available", class: "premium" },
+
+    { id: "6A", status: "occupied", class: "premium" },
+    { id: "6B", status: "available", class: "premium" },
+    { id: "6C", status: "available", class: "premium" },
+    { id: "6D", status: "occupied", class: "premium" },
+    { id: "6E", status: "available", class: "premium" },
+    { id: "6F", status: "available", class: "premium" },
+
+    // Row 7-10 (Economy)
+    { id: "7A", status: "available", class: "economy" },
+    { id: "7B", status: "available", class: "economy" },
+    { id: "7C", status: "occupied", class: "economy" },
+    { id: "7D", status: "occupied", class: "economy" },
+    { id: "7E", status: "available", class: "economy" },
+    { id: "7F", status: "available", class: "economy" },
+
+    { id: "8A", status: "occupied", class: "economy" },
+    { id: "8B", status: "available", class: "economy" },
+    { id: "8C", status: "available", class: "economy" },
+    { id: "8D", status: "available", class: "economy" },
+    { id: "8E", status: "occupied", class: "economy" },
+    { id: "8F", status: "available", class: "economy" },
+
+    { id: "9A", status: "available", class: "economy" },
+    { id: "9B", status: "occupied", class: "economy" },
+    { id: "9C", status: "available", class: "economy" },
+    { id: "9D", status: "available", class: "economy" },
+    { id: "9E", status: "available", class: "economy" },
+    { id: "9F", status: "occupied", class: "economy" },
+
+    { id: "10A", status: "available", class: "economy" },
+    { id: "10B", status: "available", class: "economy" },
+    { id: "10C", status: "available", class: "economy" },
+    { id: "10D", status: "occupied", class: "economy" },
+    { id: "10E", status: "available", class: "economy" },
+    { id: "10F", status: "available", class: "economy" },
+  ],
+}
+
+// Mock bookings data
+export const mockBookings = [
+  {
+    id: "booking-1",
+    userId: "", // Will be set dynamically
+    flightId: "flight-1",
+    flightNumber: "FDA101",
+    origin: "New York (JFK)",
+    destination: "Los Angeles (LAX)",
+    departureDate: "2025-06-15",
+    departureTime: "08:00 AM",
+    arrivalTime: "11:30 AM",
+    seats: ["7A", "7B"],
+    passengers: [
+      {
+        firstName: "John",
+        lastName: "Doe",
+        dateOfBirth: "1990-01-01",
+        nationality: "United States",
+        passportNumber: "AB123456",
+      },
+      {
+        firstName: "Jane",
+        lastName: "Doe",
+        dateOfBirth: "1992-05-15",
+        nationality: "United States",
+        passportNumber: "CD789012",
+      },
+    ],
+    totalPrice: 643,
+    status: "confirmed",
+    bookingDate: "2025-05-10",
+    confirmationNumber: "FD123456",
+  },
+  {
+    id: "booking-2",
+    userId: "", // Will be set dynamically
+    flightId: "flight-3",
+    flightNumber: "FDA310",
+    origin: "New York (JFK)",
+    destination: "Los Angeles (LAX)",
+    departureDate: "2025-04-20",
+    departureTime: "05:30 PM",
+    arrivalTime: "09:00 PM",
+    seats: ["9A"],
+    passengers: [
+      {
+        firstName: "John",
+        lastName: "Doe",
+        dateOfBirth: "1990-01-01",
+        nationality: "United States",
+        passportNumber: "AB123456",
+      },
+    ],
+    totalPrice: 324,
+    status: "completed",
+    bookingDate: "2025-03-15",
+    confirmationNumber: "FD789012",
+  },
+]
