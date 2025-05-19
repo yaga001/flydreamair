@@ -13,7 +13,7 @@ import { getCurrentUser, signOutUser } from "@/lib/auth"
 import { getUserPaymentMethods } from "@/lib/payment-methods"
 import type { UserType, PaymentMethodType } from "@/lib/types"
 import MainLayout from "@/components/main-layout"
-
+ 
 export default function DashboardPage() {
   const router = useRouter()
   const [user, setUser] = useState<UserType | null>(null)
