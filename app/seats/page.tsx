@@ -11,7 +11,6 @@ import { getCurrentUser, signOutUser } from "@/lib/auth"
 import type { UserType } from "@/lib/types"
 import MainLayout from "@/components/main-layout"
 
-
 export default function SeatsPage() {
   const searchParams = useSearchParams()
   const router = useRouter()
