@@ -140,31 +140,6 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-
-        <section className="py-16">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12">Popular Destinations</h2>
-            <div className="grid md:grid-cols-4 gap-6">
-              {["New York", "London", "Tokyo", "Paris"].map((city) => (
-                <div key={city} className="group relative rounded-lg overflow-hidden shadow-md">
-                  <div className="aspect-w-16 aspect-h-9">
-                    <img
-                      src={`/placeholder.svg?height=225&width=400&text=${city}`}
-                      alt={city}
-                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                    />
-                  </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
-                    <div className="p-4">
-                      <h3 className="text-xl font-bold text-white">{city}</h3>
-                      <p className="text-white/80">Explore amazing deals</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
       </main>
 
       <footer className="bg-gray-900 text-white">
