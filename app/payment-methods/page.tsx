@@ -21,7 +21,7 @@ export default function PaymentMethodsPage() {
   const [isAddDialogOpen, setIsAddDialogOpen] = useState(false)
   const [isEditDialogOpen, setIsEditDialogOpen] = useState(false)
   const [selectedPaymentMethod, setSelectedPaymentMethod] = useState<PaymentMethodType | null>(null)
-
+ 
   useEffect(() => {
     const checkAuth = async () => {
       try {
