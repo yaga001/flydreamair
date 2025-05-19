@@ -70,18 +70,6 @@ For security reasons, the system only stores the last 4 digits of credit card nu
   - `/lib/types.ts`: TypeScript interfaces
   - `/lib/mock-data.ts`: Mock flight data
 
-## Deployment
-
-The project includes GitHub Actions for automated deployment to Vercel. To deploy:
-
-1. Fork this repository
-2. Set up a Vercel project
-3. Add the following secrets to your GitHub repository:
-   - `VERCEL_TOKEN`
-   - `ORG_ID`
-   - `PROJECT_ID`
-4. Push to the main branch to trigger deployment
-
 ## License
 
 MIT
