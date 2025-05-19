@@ -2,6 +2,10 @@
 
 A comprehensive flight booking system with payment method management, persistent storage for bookings, and search history.
 
+### Dashboard
+![dashboard](https://github.com/user-attachments/assets/3ee87d47-7097-45ae-802a-ec47921643e7)
+
+
 ## Features
 
 - User authentication (registration and login)
